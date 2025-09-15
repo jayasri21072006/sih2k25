@@ -1,7 +1,7 @@
 # Core ML & DL
-torch==2.2.1
+torch==2.8.0
 torchvision==0.17.1
-torchaudio==2.2.1
+torchaudio==2.8.0
 transformers==4.28.1
 tokenizers==0.13.3
 huggingface-hub==0.34.4
@@ -29,14 +29,14 @@ networkx==3.3
 rpds-py==0.27.1
 python-dateutil==2.9.0.post0
 pytz==2025.2
-pyarrow>=15.0.0   # satisfies datasets
+pyarrow>=15.0.0
 
 # Visualization
 matplotlib==3.10.1
 seaborn==0.13.2
 plotly==6.3.0
 pydeck==0.9.1
-altair==4.2.2      # <5 to satisfy Streamlit dependency
+altair==4.2.2
 
 # Utilities & System
 tqdm==4.67.1
@@ -53,7 +53,7 @@ blinker==1.9.0
 # Streamlit & Web UI
 streamlit==1.22.0
 watchdog==4.0.2
-tenacity==8.2.2  # <9 to satisfy Streamlit
+tenacity==8.2.2
 
 # Supporting packages
 accelerate==1.10.1
